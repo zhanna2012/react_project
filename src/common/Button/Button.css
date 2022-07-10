@@ -1,0 +1,21 @@
+.btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(213, 29, 179);
+    padding: 3px;
+    font-size: 12px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: none;
+    margin: 2px;
+    transition: 0.5 ease-in;
+  }
+  .btn:hover {
+    color: rgb(213, 29, 179);
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(213, 29, 179);
+  }

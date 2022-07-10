@@ -1,0 +1,93 @@
+.card {
+    background-color: rgb(79, 66, 66);
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  .card__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .main__info {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    margin-right: 15px;
+  }
+  .add_info {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card__title {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  hr {
+    margin-bottom: 10px;  
+    width: 100%;
+  }
+  .card__par {
+    color: aliceblue;
+    font-size: 13px;
+    width: 100%;
+  }
+  .add__row {
+    color: aliceblue;
+    margin-bottom: 8px;
+    white-space: pre-wrap;
+  }
+  .add__row span {
+    font-weight: 800;
+  }
+  .nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+  }
+  .courses__box{
+    width: 100%;
+    display: block;
+  }
+  
+  @media (max-width: 1000px) {
+    .card__title {
+      font-size: 2rem;
+    }
+    .nowrap {
+      width: 100%;
+    }
+    .main__info {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .add_info {
+      width: 100%;
+    }
+    .card__wrapper {
+      flex-direction: column;
+      align-items:flex-start;
+    }
+    .card {
+      display: block;
+      max-width: 100%;
+      border-radius: 0px;
+      margin: 0px;
+    }
+    .card__par {
+      max-width:100%;
+      white-space: pre-line;
+    }
+  
+  }

@@ -1,0 +1,35 @@
+header {
+    background-color: #f2f204;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+.header__wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.user__block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.user__name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+.logo__wrapper {
+    width: 70px;
+    height: 70px;
+  }
+
+  @media (max-width: 1000px) {
+    .header__wrapper {
+      justify-content: center;
+    }
+  }

@@ -1,0 +1,37 @@
+@media (max-width: 1000px) {
+  
+    .user__section_row {
+      justify-content: center;
+    }
+    .search__bar {
+      justify-content: center;
+    }
+    
+  
+  }
+  .user__section {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  
+  }
+  .user__section_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  @media (max-width: 540px) {
+    .user__section_row {
+      justify-content: center;
+    }
+  
+  
+  }
+  

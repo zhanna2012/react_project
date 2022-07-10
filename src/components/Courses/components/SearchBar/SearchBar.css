@@ -1,0 +1,11 @@
+.search__bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 540px) {
+    .search__bar {
+      justify-content: center;
+    }
+  
+  }
